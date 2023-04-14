@@ -1,0 +1,14 @@
+.date_block {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.dateofbirthday {
+  margin: 0px auto 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}

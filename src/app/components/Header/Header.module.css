@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 30px;
+}
+.menu_list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.menu_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(78, 35, 107);
+}
+.menu_item.active {
+  background-color: rgb(145, 23, 193);
+}
+.menu_link {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 510px) {
+  .menu_item {
+    min-height: 58px;
+  }
+}
